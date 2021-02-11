@@ -34,7 +34,7 @@ color: grey;
 
 .name{
   border: groove;
-  color: white;
+  color: black;
   width: 45%;
   height: 60px;
   text-align: center;
@@ -43,27 +43,11 @@ color: grey;
   font-size: 12px;
   margin: 4px 4px;
   cursor: pointer;
+  background-color: black;
 }
 .name:hover {
   color: red;
 }
-
-.name-2{
-  border: groove;
-  color: white;
-  width: 95%;
-  height: 60px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 4px;
-  cursor: pointer;
-}
-.name-2:hover {
-  color: red;
-}
-
 
 .description{
   width: 100%;
