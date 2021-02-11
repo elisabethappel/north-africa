@@ -11,37 +11,40 @@
 
 <html lang="en">
   <body>
-<div>
-<h3>Exploring North Africa</h3>
-
-</div>
-
 <div class="full">
-<h4> Hover to view the capital and
-click to view the flag
+<h3>Exploring North Africa</h3>
+<div class="subtitle"> <h4> Can you guess the capitals of these countries? Hover to view the country flag, and click to see its capital!
 </h4>
+</div>
 
 <div class="container">
   <div id="countries">
-    <button class="name" id="egypt" country-flag="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/2560px-Flag_of_Egypt.svg.png">Egypt </button>
-    <button class="name" id="tunisia" country-flag="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg">Tunisia </button>
-    <button class="name" id="morocco" country-flag="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/255px-Flag_of_Morocco.svg.png">Morocco </button>
-    <button class="name" id="algeria" country-flag="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/510px-Flag_of_Algeria.svg.png">Algeria </button>
-    <button class="name" id="libya" country-flag="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg">Libya </button>
-    <button class="name" id="sudan" country-flag="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg">Sudan </button>
-    <button class="name-2" id="sadr" country-flag="https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg">Sahrawi Arab Democratic Republic </button>
+    <button class="name" id="egypt" data-country-flag="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/2560px-Flag_of_Egypt.svg.png"
+    data-capital="Cairo" >Egypt </button>
+    <button class="name" id="tunisia" data-country-flag="https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Tunisia.svg"
+    data-capital="Tunis">Tunisia
+    </button>
+    <button class="name" id="morocco" data-country-flag="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/255px-Flag_of_Morocco.svg.png"
+    data-capital="Rabat">Morocco </button>
+    <button class="name" id="algeria" data-country-flag="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/510px-Flag_of_Algeria.svg.png"
+    data-capital="Algiers">Algeria </button>
+    <button class="name" id="libya" data-country-flag="https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg"
+    data-capital="Tripoli">Libya </button>
+    <button class="name" id="sudan" data-country-flag="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg"
+    data-capital="Khartoum">Sudan </button>
+    <button class="name" id="sadr" data-country-flag="https://upload.wikimedia.org/wikipedia/commons/2/26/Flag_of_the_Sahrawi_Arab_Democratic_Republic.svg"
+    data-capital="El Aaiún">Sahrawi Arab Democratic Republic </button>
   </div>
 </div>
 
 <div class="container">
   <div class="description">
+    </div>
+    <div id="flag">
+
   </div>
  </div>
 
-  <div class="container">
-    <div id="flag">
-    </div>
-  </div>
 </div>
 <script
 src="https://code.jquery.com/jquery-3.5.1.min.js"
