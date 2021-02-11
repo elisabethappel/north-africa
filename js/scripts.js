@@ -1,7 +1,7 @@
 $('.name').hover(function() {
   var flagUrl = $(this).attr('data-country-flag')
   console.log(flagUrl)
-  $('#flag').empty()
+  $('.description').text("Click a Country")
   $('#flag').css('background-image', `url(${flagUrl})`)
 })
 
