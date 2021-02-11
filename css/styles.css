@@ -12,22 +12,21 @@ word-spacing: 2px;
 text-align: center;
 }
 
-h4 {
+.subtitle{
 text-align: center;
 font-style: italic;
 color: grey;
+background-color: white;
 }
+
 .full {
   float: left;
-  width: 900px;
-  height: 700px;
-
+  width: 100%;
 }
 
 .container {
   float: left;
-  width: 300px;
-  height: 500px;
+  width: 50%;
   padding-bottom: 5%;
 }
 
@@ -50,25 +49,26 @@ color: grey;
 }
 
 .description{
-  width: 100%;
-  height: 200px;
+  width: 75%;
+  top: 100px;
   text-align: center;
   color: red;
   font-family: sans-serif;
   font-size: 25px;
   font-weight: bold;
   text-decoration: underline;
-  padding: 120px 0;
+  background-color: white;
+  float: center;
 
 }
 
 #flag {
-  width: 100%;
-  height: 200px;
-  display: block;
+  top: 180px;
+  height: 250px;
+  width: 400px;
+  display: inline-block;
   background-size: cover;
   background-repeat: no-repeat;
-  float: right;
-  margin: 30px 0px;
+  float: center;
 
 }
