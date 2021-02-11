@@ -52,7 +52,7 @@ margin: 0 auto;
 }
 
 .description{
-  width: 75%;
+  width: 50%;
   top: 100px;
   text-align: center;
   color: red;
@@ -60,7 +60,7 @@ margin: 0 auto;
   font-size: 25px;
   font-weight: bold;
   background-color: white;
-  margin-left: 25px;
+  margin: 0 auto;
 
 }
 
