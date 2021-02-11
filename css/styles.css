@@ -3,7 +3,7 @@ body{
  background-image: url(http://www.jsu.edu/depart/geography/mhill/worldmapman/worldmapman/nafmide/wblmapm.jpg);
  background-repeat: no-repeat;
  background-size: cover;
- max-width: 900px;
+
 }
 
 h3 {
@@ -20,14 +20,17 @@ background-color: white;
 }
 
 .full {
-  float: left;
-  width: 100%;
+max-width: 1000px;
+margin: 0 auto;
+
 }
 
 .container {
   float: left;
+  display: inline-block;
   width: 50%;
   padding-bottom: 5%;
+  text-align: center;
 }
 
 
